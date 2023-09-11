@@ -1,6 +1,8 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
+  width: 1280px;
+  margin: 0 auto;
 }
 
 *,
@@ -28,7 +30,6 @@ ol {
 }
 
 img {
-  display: block;
   max-width: 100%;
 }
 
@@ -41,7 +42,7 @@ a {
 }
 
 .hero {
-  background: url('/images/bg_hero.jpg') lightgray 50% / cover no-repeat;
+  background: url("/images/bg_hero.jpg") lightgray 50% / cover no-repeat;
   padding-top: 23px;
   padding-bottom: 116px;
 }
@@ -100,7 +101,6 @@ a {
 }
 
 .hero-body-btn-box {
-  /* margin-bottom: 116px; */
   display: flex;
   gap: 16px;
 }
@@ -132,10 +132,6 @@ a {
   justify-content: space-between;
   padding: 76px 64px 75px;
 }
-
-/* .bonus-box-text {
-  display: block;
-} */
 
 .bonus-title {
   width: 507px;
@@ -315,7 +311,7 @@ a {
   background-color: #e7dfd8;
   display: flex;
   justify-content: space-between;
-  padding: 124px 64px 101px;
+  padding: 124px 64px 59px;
 }
 
 .bonus-Sell-Again-box-img {
@@ -328,7 +324,6 @@ a {
 .bonus-Sell-Again-text {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .bonus--Sell-Again--box-text-item {
@@ -355,19 +350,305 @@ a {
 }
 
 .bonus-Sell-Again-title {
+  width: 459px;
   color: #101010;
   font-family: Inter;
-  font-size: 19px;
+  font-size: 35px;
   font-style: normal;
   font-weight: 400;
-  line-height: 189.474%;
+  line-height: 130.377%;
+  letter-spacing: 1px;
+  margin-bottom: 9px;
 }
 
 .bonus-Sell-Again-paragraph {
+  width: 495px;
   color: #101010;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 157.714%;
+  text-align: justify;
+}
+
+.section-benefit {
+  width: 1280px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 116px 0 112px;
+  gap: 128px;
+  margin: 0 auto;
+}
+
+.benefit-Jason-Stormi {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.benefit-Jason-Stormi-paragraph {
+  margin-top: 41px;
+  color: #e4d8cc;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.333%;
+}
+
+.benefit-Bonus-Members {
+  margin-top: 61px;
+  display: flex;
+}
+
+.benefit-forbes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.benefit-forbes-img {
+  margin-bottom: 48px;
+}
+
+.benefit-forbes-paragraph {
+  color: #e4d8cc;
+  text-align: center;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.13%;
+}
+
+.benefit-forbes-images {
+  margin-top: 68px;
+  justify-content: center;
+}
+
+.section-common-questions {
+  background: #101010;
+  display: flex;
+  gap: 120px;
+  padding: 118px 64px 153px;
+}
+
+.common-questions-title {
+  color: #e4d8cc;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.756%;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+
+.common-questions-paragraph-box {
+  color: #b99fea;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.section-common-questions-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-common-questions-img-box {
+  width: 520px;
+}
+
+.section-bonus-mission {
+  background-image: url("../images/IMAGE\ \(8\).png");
+  padding: 139px 550px 98px 64px;
+}
+
+.bonus-mission-paragraph {
+  color: #c3bab1;
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 147.2%;
+  line-height: 106.667%;
+  margin-bottom: 19px;
+}
+
+.bonus-mission-title {
+  color: #e7dfd8;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 112.5%;
+  margin-bottom: 24px;
+}
+
+.bonus-mission-btn {
+  display: flex;
+  color: #e4d8cc;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 250%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  border-bottom: 2px solid #e4d8cc;
+  align-items: center;
+  background-color: transparent;
+  gap: 10px;
+  margin-bottom: 45px;
+}
+
+footer {
+  background: #101010;
+  padding: 78px 67px 28px 63px;
+}
+
+.footer-bonus-box {
+  display: flex;
+  gap: 42px;
+
+  margin-bottom: 86px;
+}
+
+.footer-get-bonus-paragraph-box {
+  color: #e4d8cc;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 104.348%;
+  margin-bottom: 19px;
+}
+
+.footer-get-bonus-btn-box {
+  width: 215px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid #7837f3;
+  background: #7837f3;
+  color: #fffaf5;
+}
+
+.footer-support-paragraph-box {
+  color: #e4d8cc;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 104.348%;
+  margin-bottom: 19px;
+}
+
+.footer-support-btn-box {
+  color: #e4d8cc;
+  width: 251px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  border: 1px solid #e4d8cc;
+  background: transparent;
+}
+
+.footer-infortion-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 121px;
+}
+
+.footer-infortion-inks-box {
+  display: flex;
+  gap: 75px;
+}
+
+.footer-about-box {
+  margin-bottom: 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.footer-infortion-paragraph-title {
+  color: #e4d8cc;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 104.348%;
+}
+
+.footer-infortion-paragraph {
+  color: #e4d8cc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.footer-infortion-smartest-way-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.footer-infortion-smartest-way-img-box {
+  width: 60px;
+  margin-bottom: 47px;
+}
+
+.footer-infortion-smartest-way-paragraph {
+  color: #e4d8cc;
+  text-align: right;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.footer-line {
+  height: 1px;
+  width: 1147px;
+  background: rgba(228, 216, 204, 0.16);
+  margin: 0 auto;
+}
+
+.footer-social-links {
+  display: flex;
+  padding: 28px 0 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-links-img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-social-links-paragraph-box {
+  display: flex;
+  color: #e4d8cc;
+  text-align: right;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
 }
